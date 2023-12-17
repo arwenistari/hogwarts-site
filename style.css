@@ -1,17 +1,19 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header {
     background-color: rgba(87, 0, 0, 0.918);
     padding: 16px 60px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
+    flex: 1;
 }
 .top {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 45px;
+    padding-bottom: 60px;
 }
 .logo {
     font-weight: 800;
@@ -21,7 +23,7 @@ body {
 ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 a {
     text-decoration: none;
@@ -34,15 +36,32 @@ a {
     gap: 20px;
 }
 .header-image {
-    width: 500px;
+    width: 550px;
+    flex-shrink: 2;
 }
 .header-text {
-    flex-wrap: wrap;
     width: 500px;
-    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .title {
     font-weight: 900;
     font-size: 36px;
     color: white;
+}
+.text {
+    color: white;
+    font-size: 16px;
+}
+.one {
+    background-color: rgba(224, 26, 26, 0.74);
+    border: none;
+    width: 100px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
 }

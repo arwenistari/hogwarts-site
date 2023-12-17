@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgba(87, 0, 0, 0.918);
+    padding: 16px 60px;
+    padding-bottom: 50px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 45px;
+}
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.header-image {
+    width: 500px;
+}
+.header-text {
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 8px;
+}
+.title {
+    font-weight: 900;
+    font-size: 36px;
+    color: white;
+}
